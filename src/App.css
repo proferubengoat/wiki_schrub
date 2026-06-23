@@ -1,3 +1,91 @@
+.landing {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.hero-spot {
+  max-width: 980px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-image {
+  width: 110px;
+  height: auto;
+  margin: 0 auto 12px;
+  display: block;
+}
+
+.hero-title {
+  font-size: clamp(28px, 6vw, 56px);
+  margin: 8px 0;
+}
+
+.hero-subtitle {
+  color: var(--muted);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.search input {
+  padding: 12px 14px;
+  width: 60%;
+  max-width: 560px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+  color: var(--text);
+}
+
+.search button {
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: 8px;
+  width: 220px;
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
